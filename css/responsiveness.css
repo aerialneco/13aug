@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+    
+    .left-content {
+      order: 2;
+    }
+    
+    .canvas {
+      order: 1;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* スクリーンサイズが600px以下の場合に適用するスタイル */
+    body {
+      font-size: 0.7rem; 
+    }
+  }
+  

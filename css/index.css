@@ -1,0 +1,97 @@
+/* ▼ 共通部分 ▼ */
+.header,
+.footer,
+.logo,
+.navigation,
+.nav-list,
+.nav-btn {
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+}
+.nav-list {
+    padding: 0 1em;
+} 
+/* ▲ 共通部分 ▲ */
+
+.nav-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #4b5563;
+}
+.nav-list li a:hover {
+    text-decoration: none;
+    color: #3f4144;
+    font-size: 1.1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+.logo-text{
+    font-weight: bold;
+    color: #4b5563;
+    font-size: 1.1rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; 
+}
+
+.i_title {
+    color: #4b5563;
+}
+
+a.i_button {
+    color: white;
+    background-color: #A855F7;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration-line: none;
+}
+
+.i_button:hover {
+    color: white;
+    background-color: #9435ed;
+    border-radius: 5px;
+}
+
+.registration {
+    padding-top: 50px;
+}
+
+.registration_text {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,125 @@
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.left-content {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .canvas {
+    flex: 1;
+    /* border: #999999 1px solid; */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Emotion */
+.emotion {
+    display: none;
+    justify-content: center;   
+}
+
+.emotionLabel {
+    margin: 3px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.emotion:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+.emotionOption1,
+.emotionOption2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.emotionOption1 input[type="radio"],
+.emotionOption2 input[type="radio"] {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+/* Scale */
+.scale {
+    display: none;
+}
+
+.scaleLabel {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.scale:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+/* Color */
+.color {
+    display: none;
+    justify-content: center;
+}
+
+.colorLabel {
+    margin: 2px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+    width: 50px; /* Set the width of the buttons */
+    height: 20px; /* Set the height of the buttons */
+}
+
+.color:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+.colorOption1,
+.colorOption2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.colorOption1 label,
+.colorOption2 label {
+    flex: 1;
+    width: 100px;
+    height: 20px;
+}
+
+/* theme */
+.theme {
+    display: none;
+}
+
+/* text */
+p {
+    margin-bottom: 4px;
+}
+
+
+
